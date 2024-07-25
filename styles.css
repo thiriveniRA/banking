@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #bfb0c1;
+    margin-top: 50px;
+    margin-left: 500px;
+}
+
+.container {
+    width: 50%;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(33, 27, 27, 0.1);
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    
+}
+
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+   
+}
+
+input[type="text"], input[type="number"], input[type="file"], select, textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #380434;
+    border-radius: 4px;
+    width: 50%;
+    box-sizing: border-box;
+    
+    
+}
+
+textarea {
+    resize: vertical;
+    text-align: center;
+    
+}
+
+input[type="submit"] {
+    background-color: #5e2465;
+    color: white;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 480px;
+    
+    
+    
+}
+
+input[type="submit"]:hover {
+    background-color:  #480a50;
+}
