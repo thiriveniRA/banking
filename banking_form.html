@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Banking Information Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form action="process_form.php" method="post" enctype="multipart/form-data">
+        <label for="account_holder_name">Account Holder Name:</label>
+        <input type="text" id="account_holder_name" name="account_holder_name" required><br><br>
+        
+        <label for="account_number">Account Number:</label>
+        <input type="text" id="account_number" name="account_number" required><br><br>
+        
+        <label for="account_type">Account Type:</label>
+        <select id="account_type" name="account_type" required>
+            <option value="savings">Savings</option>
+            <option value="current">Current</option>
+            <option value="fixed">Fixed Deposit</option>
+        </select><br><br>
+        
+        <label for="bank_name">Bank Name:</label>
+        <input type="text" id="bank_name" name="bank_name" required><br><br>
+        
+        <label for="branch_name">Branch Name:</label>
+        <input type="text" id="branch_name" name="branch_name" required><br><br>
+        
+        <label for="id_proof">Identification Proof:</label>
+        <input type="file" id="id_proof" name="id_proof" required><br><br>
+        
+        <label for="occupation">Occupation:</label>
+        <input type="text" id="occupation" name="occupation" required><br><br>
+        
+        <label for="income_details">Income Details:</label>
+        <input type="text" id="income_details" name="income_details" required><br><br>
+        
+        <label for="transaction_history">Transaction History:</label>
+        <textarea id="transaction_history" name="transaction_history" required></textarea><br><br>
+        
+        <label for="balance">Balance:</label>
+        <input type="number" id="balance" name="balance" required><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
